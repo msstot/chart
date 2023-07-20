@@ -41,3 +41,10 @@ Plotly.newPlot(
 ],
 layout
   );
+
+
+
+var link = document.createElement('a');
+link.textContent = 'Link Title';
+link.href = 'https://www.youtube.com/watch?v=BdQIykGWpG4';
+document.getElementById('where_to_insert').appendChild(link);
